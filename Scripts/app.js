@@ -12,11 +12,11 @@ when the app kicks in the IIFE will commance functioning
 
         // this an array to store the pictures inside; 
      let pictures=[
-        "1.jpeg",
-        "2.jpeg",
-        "3.jpeg",
-        "4.jpeg",
-        "5.jpeg"
+        "./Assests/Images/1.jpeg",
+        "./Assests/Images/2.jpeg",
+        "./Assests/Images/3.jpeg",
+        "./Assests/Images/4.jpeg",
+        "./Assests/Images/5.jpeg"
        ];
      
        let index=0; 
@@ -30,7 +30,7 @@ when the app kicks in the IIFE will commance functioning
             index=0; 
         }
      }
-     setInterval(changePic, 2000);
+    setInterval(changePic, 2000);
    }
  
    window.addEventListener("load",start);
